@@ -1,0 +1,913 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="owl-slider/dist/assets/owl.carousel.min.css">
+        <link rel="stylesheet" href="owl-slider/dist/assets/owl.theme.default.min.css">
+        <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+        <!-- <link rel="stylesheet" href="materialize/css/materialize.min.css"> -->
+        <link rel="stylesheet" href="font-awesome/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+        <link rel="stylesheet" href="aos-master/dist/aos.css">
+        <link rel="stylesheet" href="swiper-js/swiper-bundle.css">
+        <!-- <link rel="stylesheet" href="constructor.css"> -->
+        <link rel="stylesheet" href="car.css">
+        <script src="bootstrap/js/bootstrap.min.js"></script>
+        <!-- <script src="materialize/js/materialize.min.js"></script> -->
+        <script src="jquery-3.6.1.min.js"></script>
+        <script src="owl-slider/dist/owl.carousel.min.js"></script>
+        <script src="anime-master/lib/anime.min.js"></script>
+        <!-- <link rel="stylesheet" href="style.css"> -->
+        <!-- <link rel="icon" href="conts-images/constructor-logo.avif" type="conts-images/constructor-logo.avif"> -->
+        <title>Car Website</title>
+    </head>
+<body>
+   <!-- ******************ScrolTo********************************** -->
+   <div class="scroll-icon">
+    <i class="fa fa-angle-up"></i>
+  </div>
+
+  <!-- ******************ScrolToEnd********************************** -->
+  <!-- ******************************News article************************************ -->
+  <div class="article-parent3">
+    <i class="fa fa-xmark" id="cross3"></i>
+    <div class="image-parent3">
+      <div class="image-child3">
+        <img src="car-imgs/ar3.jpg" width="100%" height="100%" alt="">
+      </div>
+    </div>
+  </div>
+  <div class="article-parent2">
+    <i class="fa fa-xmark" id="cross2"></i>
+    <div class="image-parent2">
+      <div class="image-child2">
+        <img src="car-imgs/ar-2.jpg" width="100%" height="100%" alt="">
+      </div>
+    </div>
+  </div>
+    <div class="article-parent">
+      <i class="fa fa-xmark " id="cross"></i>
+      <div class="image-parent">
+        <div class="image-child">
+          <img src="car-imgs/ar-img.jpg" width="100%" height="100%" alt="">
+        </div>
+      </div>
+    </div>
+  <!-- ******************************News article  End************************************ -->
+
+   <!-- ****************header-item****************************************** -->
+  <div class="header-wraper">
+
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-2 col-xl-2 col-xxl-2 col-md-12 col-sm-12">
+          <span class="icons-wrap"><i class="fa fa-location"></i> 12 Main Street Pt.</span>
+     
+        </div>
+        <div class="col-lg-4 col-xl-4 col-xxl-4 col-md-12 col-sm-12">
+          <span class="icons-wrap"><i class="fa fa-phone"></i> +92 3217032783</span>
+        </div>
+       
+        <div class="col-lg-6 col-xl-6 col-xxl-6 col-md-12 col-sm-12">
+          <div class="social-icons">
+            <i class="fa-brands fa-google"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-facebook"></i>
+          </div>
+        </div>
+
+  
+      </div>
+    </div>
+    </div>
+
+
+  <!-- ****************header-itemEnd****************************************** -->
+    <!-- ***********************Car Slider********************************************* -->
+   
+     
+        <div class="col-12">
+          <div class="swiper mySwiper back">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide zoom-img">
+                <img src="car-slider/car1.jpg" width="100%" height="600px" />
+                <div class="slider-text">
+                   
+                    <span class="p">
+                    <p>The All New</p>
+
+                    </span>
+    
+                    <h1 >2016 Atura ILX</h1>
+                    <p>High Performance & Outstanding Technology Combined</p>
+                   <h3> $35,290  </h3>
+                  
+                </div>
+             
+              </div>
+              <div class="swiper-slide  zoom-img">
+                <img src="car-slider/car2.jpg" width="100%" height="600px" />
+                <div class="slider-text">
+                  <span class="p">
+                      <p>The All New</p>
+                    </span>
+                    <h1 >2016 Atura ILX</h1>
+                    <p>High Performance & Outstanding Technology Combined</p>
+                   <h3> $73,390  </h3>
+                </div>
+              </div>
+              <div class="swiper-slide  zoom-img">
+                <img src="car-slider/car2.jpg" width="100%" height="600px" />
+                <div class="slider-text">
+                  <span class="p">
+                    <p>The All New</p>
+                  </span>
+    
+                    <h1 >2016 Atura ILX</h1>
+                    <p>High Performance & Outstanding Technology Combined</p>
+                   <h3> $73,390  </h3>
+                </div>
+              </div>
+           
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-pagination"></div>
+            <nav>
+        
+              <span class="bars-item">
+    
+              <i class="fa fa-bars" onclick="opennav()"></i>
+              </span>
+              <label for=""><img src="car-slider/logo.png" alt=""></label>
+              <ul class="open">
+                <div class="cross-item">
+                <i class="fa fa-xmark" onclick="closenav()"></i>
+    
+                </div>
+    
+                <li class="first-item"><a href="#">home</a>
+                <ul class="home-wrap">
+                  <li><a href="#">home 1</a></li>
+                  <li><a href="#">home 2</a></li>
+                  <li><a href="#">home 3</a></li>
+             
+                </ul>
+                </li>
+                <li class="second-item"><a href="#">pages</a>
+                  <ul class="page-wrap">
+                    <li><a href="#">page 1</a></li>
+                    <li><a href="#">page 2</a></li>
+                    <li><a href="#">page 3</a></li>
+                  
+                  </ul>
+                </li>
+              
+                <li class="thir-item"><a href="#">blog</a>
+                
+                <li class="fourth-item"><a href="#">features</a></li>
+                <li class="fifth-item"><a href="#">portfolio</a></li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      
+   
+
+    
+    <!-- ***********************Car Slider End********************************************* -->
+    <!-- *******************Brand car******************************** -->
+            
+     <div class="container">
+      <div class="row">
+        <div class="col-4">
+          <div class="car-img">
+            <img src="car-imgs/front.png" alt="" id="skew">
+
+            <img src="car-imgs/back.png" alt="">
+          </div>
+        </div>
+        <div class="col-4">
+          <div class="autozone-wrap">
+            <p>Welcome to</p>
+            <h2>AUTOZONE</h2>
+            <h4>the ONLINE AUTOS world</h4>
+            <span class="rotate1-wrap"></span>
+            <span class="rotate2-wrap"><i class="fa fa-caret-down"></i></span>
+            <span class="rotate3-wrap"></span>
+
+          </div>
+        </div>
+        <div class="col-4">
+          <div class="car-img">
+            <img src="car-imgs/3.png" alt="" id="skew">
+
+            <img src="car-imgs/4.png" alt="">
+          </div>
+        </div>
+
+      </div>
+     </div>
+<div class="main">
+     <div class="container">
+      <div class="row">
+        <div class="col-6">
+          <div class="main-article">
+            <p>Integer tortor bibendum est faucibus gravida aliquam nulla lectus lacinia eget pulvinar mattis risus quisque sagittis lorem acdua eros pharetral interdum quisque convallis nulla dpsum val mualiquam arcu arcu lorem ipsum dolor sit amet consectetur adipisicing.</p>
+            <br>
+            <p>Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim ven quis nostrud exercitation ulamco laboris nisi ut aliquip exl commodo consequat. Duis auteir dolor in reprehenderit voluptate velit esse cillum dolore eu fugiat.</p>
+          </div>
+        </div>
+        <div class="col-6">
+          <div class="side-wrap">
+            <h3>MAIN FEATURES</h3>
+          </div>
+          <br>
+          <span class="rot-wrap"><i class="fa fa-caret-down"></i></span><p id="first-child">Maecenas mattis facilisis arcu Ised Morbi accumsan dignissim sed libero lorem ipsum </p>
+          <span class="rot-wrap"><i class="fa fa-caret-down"></i></span><p id="first-child">Maecenas mattis facilisis arcu Ised Morbi accumsan dignissim sed libero lorem ipsum </p>
+          <span class="rot-wrap"><i class="fa fa-caret-down"></i></span><p id="first-child">Maecenas mattis facilisis arcu Ised Morbi accumsan dignissim sed libero lorem ipsum </p>
+        </div>
+
+      </div>
+     </div>
+</div>
+    <!-- *******************Brand car End******************************** -->
+    <!-- **********************Services Section************************************** -->
+    <div class="bg">
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <div class="service-item">
+          <h2>Our Services</h2>
+          <p>we are offering vehicle services 24/7</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <div class="swiper mySwipers">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide slide-2"><img src="car-slider/car-img1 (1).jpg"width="100%" id="sli-img" alt="">
+          
+            </div>
+          
+            <div class="swiper-slide slide-2"><img src="car-slider/car-img1 (2).jpeg"width="100%" id="sli-img" alt="">
+              
+            </div>
+            <div class="swiper-slide slide-3"><img src="car-slider/car-img1 (2).jpg"width="100%" id="sli-img" alt="">
+             
+            </div>
+            <div class="swiper-slide slide-4"><img src="car-slider/car-img1 (3).jpg"width="100%"id="sli-img" alt="">
+             
+            </div>
+            <div class="swiper-slide slide-5"><img src="car-slider/car-img1 (1).jpg"width="100%"id="sli-img" alt="">
+             
+            </div>
+            <div class="swiper-slide slide-5"><img src="car-slider/car-img1 (4).jpg"width="100%"id="sli-img" alt="">
+             
+            </div>
+        
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+      
+       
+    </div>
+        
+
+    <div class="autra-par">
+   <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <div class="autra-car">
+          <p>The All New</p>
+    
+          <h1 >2016 Atura ILX</h1>
+          <p>High Performance & Outstanding Technology Combined</p>
+         <h3> $35,290  </h3>
+        </div>
+      </div>
+    </div>
+   </div>
+    </div>
+
+
+    <!-- **********************Services Section End************************************** -->
+    <!-- *****************************Latest Section********************************************** -->
+     <div class="latest-wrap">
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <h1>Latest Offers</h1>
+          <p>Sed euismod ullamcorper tortor suspendisse potena quisue</p>
+        </div>
+      </div>
+    </div>
+ 
+ <div class="container">
+  <div class="row">
+    <div class="col-5 pb-3">
+      <img src="car-imgs/5.jpg" width="100%" height="365px" id="im" alt="">
+    </div>
+    <div class="col-7">
+      <div class="row">
+        <div class="col-6 pb-3">
+          <img src="car-imgs/1.jpg" width="100%" alt="">
+        </div>
+        <div class="col-6 pb-3">
+          <img src="car-imgs/2.jpg"width="100%" alt="">
+        </div>
+        
+        <div class="col-6">
+          <img src="car-imgs/3.jpg"width="100%" alt="">
+        </div>
+        <div class="col-6">
+          <img src="car-imgs/4.jpg"width="100%" alt="">
+        </div>
+
+      </div>
+    </div>
+  </div>
+ </div>
+     </div>
+    <!-- *****************************Latest Section End********************************************** -->
+
+    <!-- ********************************Real Fact******************************************* -->
+<div class="fact-item">
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <div class="fac-wrap">
+            <h1>Real Facts</h1>
+            <p>we have some superb facts here</p>
+          </div>
+            <div class="row">
+              <div class="col-4">
+                <div class="par-wraper count-1">
+                <div class="count " data-target="1000"> </div>
+                </div>
+                <i class="fa fa-car" id="i"></i> 
+
+              </div>
+              <div class="col-4">
+                <section class="counter-sec">
+                <div class="par-wraper count-2">
+                <div class="count " data-target="2000"></div>
+                </div>
+                <i class="fa-solid fa-gauge-high" id="i-wrap-2"></i>
+                
+              </div>
+              <div class="col-4">
+                <div class="par-wraper count-3">
+                <div class="count "data-target="3000"></div>
+                </div>
+                <i class="fa-solid fa-bus" id="i-wrap-3"></i> 
+
+              </div>
+            </section>
+            </div>
+
+        </div>
+      </div>
+    </div>
+</div>
+    <!-- ********************************Real Fact End******************************************* -->
+    <!-- ************************************About section************************************ -->
+    <div class="about-par">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <h1>About US</h1>
+            <p class="heading-wrap">Sed euismod ullamcorper tortor suspendisse potena</p>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-5">
+            <div class="about-text-wrap">
+              <span><i class="fa fa-caret-down"></i></span>
+              <h4>trusted name in auto-world</h4>
+              <p>Integer tortor bibendum estar faucibus gravida aliquam nulla lectus lacinia egar pulvinar matis nl risus quisque sagitis lorem acda lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+              <br>
+              <p>Integer tortor bibendum est faucibus gravida aliquam nul lectus lacinia eget pulvinar mattis inl risus. Quisque sagittis lorem acdua er pharetral interdum quisque convallis nulla id ipsum vamus aliquam arcu arcu.</p>
+              <br>
+              <p>Etiam imperdiet aliquam eriat volutpat mauris consecteta. Aliquam enisem pretium vitae posuere ac mats vitae arcu.</p>
+            </div>
+            <div class="content-1">
+              <p>we have largest vehicles stock</p>
+            </div>
+            <div class="content-2">
+              <p>we got worldwide locations</p>
+            </div>
+            <div class="content-3">
+              <p>we deal in all kinds of brands & vehicles</p>
+            </div>
+
+          </div>
+          <div class="col-7">
+            <div class="side-img-wrap">
+              <img src="car-imgs/10.png" alt="">
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+    
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <div class="again-rot-wrap">
+          <span class="rotate1-wrap-again"></span>
+          <span class="rotate2-wrap-again"><i class="fa fa-caret-down"></i></span>
+          <span class="rotate3-wrap-again"></span>
+          </div>
+        </div>
+        <div class="col-12">
+          <div class="order-wrap">
+            <h3>OUR BRANDS</h3>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="side-img">
+    <div class="logo-par">
+    <div class="container">
+      <div class="row">
+        <div class="col-3">
+          
+          <div class="logo-1">
+            <img src="car-imgs/brand-1.jpg" alt="">
+          </div>
+        </div>
+        <div class="col-3">
+          <div class="logo-1">
+            <img src="car-imgs/brand-4.jpg" alt="">
+          </div>
+        </div>
+        <div class="col-3">
+          <div class="logo-1">
+            <img src="car-imgs/brand-7.jpg" alt="">
+          </div>
+        </div>
+        <div class="col-3">
+          <div class="logo-1">
+            <img src="car-imgs/brand-8.jpg" alt="">
+          </div>
+        </div>
+        </div>
+
+      </div>
+    </div>
+    </div>
+    <!-- ************************************About section End************************************ -->
+    <!-- *****************************Vehicle Section********************************************* -->
+    <div class="vehi-img">
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <div class="vehicle-wrap">
+            <h1>Types Of Vehicles</h1>
+            <p>that we are currently dealing</p>
+          </div>
+
+        </div>
+        
+      
+      </div>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-4 pb-5">
+          <div class="wrap1 wrap">
+            <i class="fa-sharp fa-solid fa-motorcycle"></i>
+            <h4 class="same-wrap">Motorcycle</h4>
+          </div>
+
+        </div>
+        <div class="col-4 pb-5">
+          <div class="wrap2 wrap">
+            <i class="fa-solid fa-car-side"></i>
+            <h4 class="same-wrap">Car</h4>
+          </div>
+        </div>
+        <div class="col-4 pb-5">
+          <div class="wrap3 wrap">
+            <i class="fa-solid fa-car"></i>
+            <h4 class="same-wrap">Sport Car</h4>
+          </div>
+        </div>
+        <div class="col-4 pb-5">
+          <div class="wrap4 wrap">
+            <i class="fa-solid fa-truck"></i>
+            <h4 class="same-wrap">Truck</h4>
+          </div>
+        </div>
+        <div class="col-4 pb-5">
+          <div class="wrap5 wrap">
+            <i class="fa-sharp fa-solid fa-truck-front"></i>
+            <h4 class="same-wrap">Vans&Truck</h4>
+          </div>
+        </div>
+        <div class="col-4 pb-5">
+          <div class="wrap6 wrap">
+            <i class="fa-solid fa-truck-monster"></i>
+            <h4 class="same-wrap">Monster Truck</h4>
+          </div>
+        </div>
+
+
+      </div>
+    </div>
+    </div>
+    <!-- *****************************Vehicle Section End********************************************* -->
+    <!-- ***********************************News article****************************************** -->
+    <div class="new-wrap">
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <h1>News & Articles</h1>
+          <p>Sed euismod ullamcorper tortsed ipsum dui Qr suspendisse
+          </p>
+        </div>
+      </div>
+    </div>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-5 pb-5">
+          <div class="ar-img">
+            <img src="car-imgs/ar-img.jpg" width="100%" alt="">
+            <div class="ar-content">
+              <i class="fa fa-magnifying-glass-plus"></i>
+            </div>
+          </div>
+        </div>
+        <div class="col-7 pb-5">
+          <div class="ar-side">
+            <h3>Adipisicing elit sed do eiusmod tempor sed incididunt</h3>
+          </div>
+          <div class="coment">
+            <p> By:: ALEX LEEMAN COMMENTS :: 15 </p>
+            <p>Wliquam sit amet urna sed vel nullam semper aiber vestibulum fringilla orem ipsum dolor sit amet consectetur adipisicing elit sed don eiusmod tempor incididunt ut labore et dolore magna aliquaa enimd ad minim veniam quis nostrud.</p>
+        
+          </div>
+        </div>
+        <div class="col-7 pb-5">
+          <div class="ar-side">
+            <h3>Sed rt enim ad minim veniam quis nostrud exercitation </h3>
+          </div>
+          <div class="coment">
+            <p> By:: ALEX LEEMAN COMMENTS :: 15 </p>
+            <p>Wliquam sit amet urna sed vel nullam semper aiber vestibulum fringilla orem ipsum dolor sit amet consectetur adipisicing elit sed don eiusmod tempor incididunt ut labore et dolore magna aliquaa enimd ad minim veniam quis nostrud.</p>
+        
+          </div>
+        </div>
+        <div class="col-5 pb-5">
+          <div class="ar-img">
+            <img src="car-imgs/ar-2.jpg" width="100%" alt="">
+            <div class="ar-content">
+              <i class="fa fa-magnifying-glass-plus"></i>
+            </div>
+          </div>
+        </div>
+        <div class="col-5 pb-5">
+          <div class="ar-img">
+            <img src="car-imgs/ar3.jpg" width="100%" alt="">
+            <div class="ar-content">
+              <i class="fa fa-magnifying-glass-plus"></i>
+            </div>
+          </div>
+        </div>
+        <div class="col-7 pb-5">
+          <div class="ar-side">
+            <h3>Adipisicing elit sed do eiusmod tempor sed incididunt</h3>
+          </div>
+          <div class="coment">
+            <p> By:: ALEX LEEMAN COMMENTS :: 15 </p>
+            <p>Wliquam sit amet urna sed vel nullam semper aiber vestibulum fringilla orem ipsum dolor sit amet consectetur adipisicing elit sed don eiusmod tempor incididunt ut labore et dolore magna aliquaa enimd ad minim veniam quis nostrud.</p>
+        
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- ***********************************News article End****************************************** -->
+    <!-- *********************************Map************************************** -->
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <div class="contact-wrap">
+          <h1>Contact US</h1>
+          <p>Sed euismod ullamcorper tortsed ipsum dui</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="map">
+      <div class="container">
+        <div class="row">
+         
+        </div>
+      </div>
+    </div>
+    
+    <!-- *********************************Map End************************************** -->
+    <!-- ******************************Contact us************************************** -->
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <div class="again-rot-wrap">
+          <span class="rotate1-wrap-again"></span>
+          <span class="rotate2-wrap-again"><i class="fa fa-caret-down"></i></span>
+          <span class="rotate3-wrap-again"></span>
+          </div>
+        </div>
+        <div class="col-12">
+          <div class="order-wrap">
+            <h3>feel free to send us a message <br>
+              or ask for a FREE quote</h3>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-6 pb-3">
+          <input type="text" name="" id="" placeholder="First Name">
+        </div>
+        <div class="col-6 pb-53">
+          <input type="text" name="" id="" placeholder="Last Name">
+        </div>
+<div class="col-6 pb-3">
+  <input type="email" name="Email" id="" placeholder="Email">
+</div>
+<div class="col-6 pb-3">
+  <input type="password" name="password" id="" placeholder="Password">
+</div>
+<div class="col-12">
+  <textarea name="" id="" cols="150" rows="10" id="textarea" placeholder="Message if(any)"></textarea>
+  <input type="submit" name="" id="">
+</div>
+
+      </div>
+    </div>
+   
+
+    <!-- ******************************Contact us End************************************** -->
+<!-- **************************Footer Part******************************************* -->
+    <div class="footer-img ">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <div class="autozone">
+              <h1>AUTOZONE</h1>
+              <p>: SHOWROOM LOCATION :</p>
+              <p>32 Market St.128, Deeja Town, Florida, CA 12345</p>
+            </div>
+          </div>
+          <div class="col-3">
+            <div class="phone">
+              <p> Phone: +1 (234) 567 8900 </p>
+            </div>
+          </div>
+          <div class="col-3">
+            <div class="fax">
+              <p> Fax: +1 (234) 567 8998 </p>
+            </div>
+          </div>
+          <div class="col-3">
+            <div class="email">
+              <p> email: info@autozone.com </p>
+            </div>
+          </div>
+          <div class="col-3">
+            <div class="hours">
+              <p>
+                Hours: Mon - Fri :: 9am - 6pm </p>
+            </div>
+          </div>
+
+
+        </div>
+      </div>
+    </div>
+<!-- **************************Footer Part******************************************* -->
+ 
+
+ 
+    <!-- *******************JS Links********************************************* -->
+    <script src="aos-master/dist/aos.js"></script>
+      <script src="swiper-js/swiper-bundle.min.js"></script>
+    <!-- *******************JS Links********************************************* -->
+<script>
+     var swiper = new Swiper(".mySwiper", {
+      loop:true,
+      spaceBetween: 30,
+      effect: "fade",
+   
+
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+   
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+      autoplay:{
+        delay:2500,
+      },
+      
+      
+     
+    });
+</script>
+<script>
+    function opennav(){
+      let open=document.querySelector(".open");
+      open.style.top="0%";
+    //   document.body.style.backgroundColor="rgba(0,0,0,0.9)";
+    }
+    function closenav(){
+      let open=document.querySelector(".open");
+      open.style.top="-100%";
+  
+  
+      
+    //   document.body.style.backgroundColor="white";
+  
+    }
+  </script>
+  <script>
+    var swiper = new Swiper(".mySwipers", {
+      
+      slidesPerView: 4,
+      spaceBetween: 0, 
+     
+      breakpoints:{
+        0:{
+          slidesPerView : 1,
+        },
+        768:{
+          slidesPerView:2,
+        },
+        991:{
+          slidesPerView:4,
+        },
+      },
+      autoplay:{
+        delay:2500,
+      }
+    });
+</script>
+<script>
+  let counter=document.querySelectorAll(".count");
+  counter.forEach((counts)=>{
+    counts.innerHTML=0;
+    var counterup=()=>{
+      target=+counts.getAttribute("data-target");
+      start=Number(counts.innerHTML);
+      incr=target/100;
+      if(start<target){
+        counts.innerHTML=`${start+incr}`;
+        setTimeout(counterup,30);
+      }else{
+        counts.innerHTML=target;
+      }
+    }
+    let options={
+      rootMargin:'0px 0px 0px 0px'
+    }
+    let done=0;
+    let countersec=document.querySelector(".counter-sec");
+    let sectionobserver=new IntersectionObserver(function(entries){
+      if(entries[0].isIntersecting && done!==1){
+        done=1;
+        counterup();
+      }
+    },options);
+    sectionobserver.observe(countersec);
+  });
+</script>
+<script>
+
+  let wraps=document.querySelectorAll(".wrap");
+  let same_wraper=document.querySelectorAll(".same-wrap");
+  wraps[0].addEventListener("mouseover",function(){
+    wraps[0].style.background="#dc2e13";
+    same_wraper[0].innerHTML="110 Offers";
+      }); 
+      wraps[0].addEventListener("mouseleave",function(){
+    wraps[0].style.background="#222";
+    same_wraper[0].innerHTML="Motercycle";
+
+      });
+      wraps[1].addEventListener("mouseover",function(){
+    wraps[1].style.background="#dc2e13";
+    same_wraper[1].innerHTML="110 Offers";
+      }); 
+      wraps[1].addEventListener("mouseleave",function(){
+    wraps[1].style.background="#222";
+    same_wraper[1].innerHTML="Car";
+
+      });
+      wraps[2].addEventListener("mouseover",function(){
+    wraps[2].style.background="#dc2e13";
+    same_wraper[2].innerHTML="110 Offers";
+      }); 
+      wraps[2].addEventListener("mouseleave",function(){
+    wraps[2].style.background="#222";
+    same_wraper[2].innerHTML="Sport Car";
+
+      });
+      wraps[3].addEventListener("mouseover",function(){
+    wraps[3].style.background="#dc2e13";
+    same_wraper[3].innerHTML="110 Offers";
+      }); 
+      wraps[3].addEventListener("mouseleave",function(){
+    wraps[3].style.background="#222";
+    same_wraper[3].innerHTML="Truck";
+
+      });
+      wraps[4].addEventListener("mouseover",function(){
+    wraps[4].style.background="#dc2e13";
+    same_wraper[4].innerHTML="110 Offers";
+      }); 
+      wraps[4].addEventListener("mouseleave",function(){
+    wraps[4].style.background="#222";
+    same_wraper[4].innerHTML="Vans&Truck";
+
+      });
+      wraps[5].addEventListener("mouseover",function(){
+    wraps[5].style.background="#dc2e13";
+    same_wraper[5].innerHTML="110 Offers";
+      }); 
+      wraps[5].addEventListener("mouseleave",function(){
+    wraps[5].style.background="#222";
+    same_wraper[5].innerHTML="Monster Truck";
+
+      });
+</script>
+<script>
+let ar_wraper=document.getElementsByClassName("ar-content");
+let ar_parent=document.querySelector(".article-parent");
+let ar_parent2=document.querySelector(".article-parent2");
+let ar_parent3=document.querySelector(".article-parent3");
+let mark=document.getElementById("cross");
+let mark2=document.getElementById("cross2");
+let mark3=document.getElementById("cross3");
+
+
+
+    ar_wraper[0].addEventListener("click",function(){
+      ar_parent.style.display="block";
+    });
+    mark.addEventListener("click",function(){
+      ar_parent.style.display="none";
+      
+    });
+    ar_wraper[1].addEventListener("click",function(){
+      ar_parent2.style.display="block";
+    });
+    mark2.addEventListener("click",function(){
+      ar_parent2.style.display="none";
+      
+    });
+    ar_wraper[2].addEventListener("click",function(){
+      ar_parent3.style.display="block";
+    });
+    mark3.addEventListener("click",function(){
+      ar_parent3.style.display="none";
+      
+    });
+</script>
+<script>
+  $(document).ready(function(){
+    $(".scroll-icon").hide();
+
+    $(window).scroll(function(){
+      let x=$(document).scrollTop();
+      if(x>200){
+      $(".scroll-icon").show();
+
+      }else{
+      $(".scroll-icon").hide();
+
+      }
+    });
+    $(".scroll-icon").click(function(){
+      $(window).scrollTop(0);
+    });
+  });
+</script>
+</body>
+</html>

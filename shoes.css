@@ -1,0 +1,797 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+  overflow-x: hidden;
+}
+::selection{
+  background-color: #9B2602;
+  /* color: #fff; */
+}
+.se{
+  cursor: pointer;
+}
+/* *********Sticy******************* */
+.stic{
+  position: fixed;
+  z-index: 999;
+  top: 0;
+  background-color: #fff;
+  width: 100%;
+  box-shadow: 0 1px 0 rgba(230, 219, 219, 0.842);
+  
+}
+/* *********Sticy End******************* */
+
+/* *******Head section********************* */
+.header-wraper{
+  width: 100%;
+  background-color:#F9F47E;
+  height: auto;
+  line-height: 50px;
+
+}
+.icons-wrap i{
+  color:#9B2602;
+}
+.social-wrap{
+  text-align: right;
+  padding-top: 2px;
+}
+.social-wrap i{
+  padding: 7px 7px;
+  border: 1px solid #9B2602;
+  background-color:#9B2602;
+  color: #fff;
+  cursor: pointer;
+
+
+}
+/* *******Head section********************* */
+/* *****************************Scroll****************************** */
+.scroll-icon{
+  width: 40px;
+  height: 40px;
+  background-color:#9B2602;
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  z-index: 999;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.scroll-icon i{
+  color: #fff;
+  display: block;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 10px 0;
+  color: #fff;
+
+}
+/* *****************************Scroll End****************************** */
+
+/* *************************Navbar*********************************** */
+.cross-icon{
+  float: right;
+  padding: 20px 30px;
+  color: #9B2602;
+  cursor: pointer;
+  font-size: 40px;
+}
+#se{
+  color: #fff;
+  position: absolute;
+  top: 52%;
+  left: 80%;
+  transform: translate(-50%,50%);
+  cursor: pointer;
+}
+
+::placeholder{
+  text-align: left;
+  color: #9B2602;
+}
+.full-search{
+  width: 100%;
+  height: 100vh;
+  background-color: rgb(0, 0, 0);
+  top: 0;
+  position: fixed;
+  z-index:999;
+  display: none;
+  transform: scale(1);
+  transition: all 1s;
+
+
+}
+.full-search input{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,50%);
+  text-align: left;
+  outline: none;
+  border: none;
+  
+  width: 50%;
+
+  background-color: rgba(0, 0, 0, 0.541);
+  border-bottom: 2px solid #9B2602;
+  color: #fff;
+
+}
+.search{
+  /* padding-right: 20px; */
+  cursor: pointer;
+  border: 1px dotted #9B2602;
+}
+.search i{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 10px;
+}
+@media(max-width:991px) 
+{
+  /* .search i{
+    padding: 10px 0;
+  } */
+  .search{
+    width: 5%;
+    float: right;
+  }
+  .nav-item a{
+    text-align: center;
+  }
+}
+
+.navbar-brand{
+  padding-left: 100px;
+  font-size: 40px;
+}
+#home{
+  color: #9B2602;
+}
+#about:hover,#contact:hover,#page:hover{
+  color: #9B2602;
+}
+.zap{
+  color: #9B2602;
+}
+.nav-item{
+  padding-left: 60px;
+}
+
+/* *************************Navbar End*********************************** */
+
+/* *****************Slidr-section********************************** */
+.swiper {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+    
+  }
+
+  .swiper-slide {
+    background-position: center;
+    background-size: cover;
+    background-color: #000;
+    
+  }
+
+  .swi-slider img {
+    display: block;
+    width: 100%;
+    height: 800px;
+    opacity: 30%;
+    -webkit-animation: thing 20s;
+    animation: thing 20s;
+    -o-animation: thing 20s;
+    animation-iteration-count: infinite;
+    transition: all 1s;
+    
+    
+  }
+  @keyframes thing{
+    from{
+        transform: scale(1,1);
+    }
+    to{
+        transform: scale(1.3,1.3);
+
+    }
+  }
+  .swiper-button-next{
+    color: #fff;
+  }
+  .swiper-button-prev{
+    color: #fff;
+  }
+  .swiper-horizontal > .swiper-pagination-bullets .swiper-pagination-bullet, .swiper-pagination-horizontal.swiper-pagination-bullets .swiper-pagination-bullet{
+    display: none;
+}
+  .slider-text{
+    position: absolute;
+    top: 0;
+    margin: 230px auto;
+    width: 100%;
+  
+    z-index: 99;
+  }
+  .slider-text h1{
+    font-size: 60px;
+    padding-bottom: 5px;
+  }
+  .slider-text h1,p{
+    color: #fff;
+    text-align: center;
+
+  }
+  .btn-par{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+  .btn{
+    outline: none;
+    font-size: 20px;
+    padding: 10px 30px;
+    background-color: #9B2602;
+    color: #fff;
+transition: all 1s;
+
+  }
+  .btn:hover{
+    background-color: #000;
+    color: #fff;
+  }
+/* *****************Slidr-sectionEnd********************************** */
+/* *********************ShoesItem************************************ */
+.parent-shoe-wraper{
+    padding-top: 100px;
+}
+.banner-par{
+    position: relative;
+    cursor: pointer;
+    overflow: hidden;
+}
+.banner-par:hover .banner-img img{
+    left: 0;
+}
+
+.banner-img img{
+    width: 100%;
+    height: 320px;
+    position: relative;
+    left: 25%;
+    transition: all 2s;
+}
+.banner-text{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color:rgba(83, 83, 83, 0.7);
+    padding: 50px 10px;
+    color: #fff;
+}
+.banner-text h3{
+    font-size: 30px;
+    padding-bottom: 10px;
+transition: all 1s;
+
+
+}
+.banner-text p{
+    color: #fff;
+    text-align: left;
+    padding-top: 20px;
+    padding-bottom: 10px;
+ 
+transition: all 1s;
+}
+.banner-par:hover .banner-text  p, .banner-par:hover h3, .banner-par:hover .shoe-btn{
+  transform: translate(20px);
+}
+
+.shoe-btn{
+    outline: none;
+    font-size: 20px;
+    padding: 10px 20px;
+    width: 170px;
+    background-color: #9B2602;
+    color: #fff;
+    margin-top: 15px;
+transition: all 1s;
+
+    
+
+}
+.shoe-btn:hover{
+    background-color: #000;
+    color: #fff;
+}
+/* *********************ShoesItemEnd************************************ */
+/* *******************Shoes Second Slider**************************** */
+.popular-item{
+  padding-top: 100px;
+}
+.popular-item h1{
+  text-align: center;
+  font-weight: bold;
+color: #000;
+}
+.popular-item p{
+  color: #000;
+  text-align: center;
+  padding-top: 20px;
+}
+.unique-wrap{
+  padding-top: 50px;
+  width: 100%;
+ 
+}
+
+.mySwipers {
+  width: 100%;
+  height: 500px;
+  filter: drop-shadow(0px 3px 1px rgb(177, 177, 210));
+  cursor: pointer;
+
+  /* position: relative; */
+}
+#sale-item{
+  position: relative;
+  overflow: hidden;
+  
+}
+#sale-item::after{
+  content: 'Sale!';
+  position: absolute;
+  top: 0;
+  left: 88%;
+border-radius: 60px;
+  width: 50px;
+  height: 50px;
+  background-color: #9B2602;
+  color: #fff;
+  line-height: 50px;
+}
+
+.slider-wraper {
+  /* text-align: center; */
+  font-size: 18px;
+  background-color: #fff;
+
+}
+.res{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.swiper-slide {
+text-align: center;
+} 
+.shoes-slider-wrap{
+  position: absolute;
+  bottom: 60px;
+}
+
+
+.shoes-slider-wrap h5{
+  padding-bottom: 30px;
+  /* transform: translate(100px); */
+  font-size: 16px;
+  font-weight: bold;
+
+}
+
+
+.shoes-wraper-btn{
+  
+  outline: none;
+  font-size: 16px;
+  padding: 10px 20px;
+  width: 150px;
+  background-color: #9B2602;
+  color: #fff;
+  /* transform: translate(100px); */
+  text-align: center;
+transition: all 1s;
+
+
+}
+.shoes-wraper-btn:hover{
+  background-color: #000;
+  color: #fff;
+}
+
+/* *******************Shoes Second Slider End**************************** */
+/* *****************************Paralex section******************************************* */
+.boots-item{
+  width: 100%;
+  height: 600px;
+  background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url('shoes-img/denim-jeans-and-old-boots.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+.boots-wrap{
+  text-align: left;
+  padding: 130px 50px;
+}
+.boots-wrap h1{
+  color: #fff;
+  font-size: 50px;
+}
+.boots-wrap p{
+  text-align: left;
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+.boots-btn{
+  outline: none;
+  font-size: 16px;
+  padding: 10px 20px;
+  width: 150px;
+  background-color: #9B2602;
+  color: #fff;
+  text-align: center;
+  cursor: pointer;
+transition: all 1s;
+}
+.boots-btn:hover{
+  color: #fff;
+  background-color: #000;
+}
+/* *****************************Paralex section End******************************************* */
+/* ************************Lastest Product******************************* */
+.par-product-wrap{
+  padding-top: 80px;
+  padding-bottom: 50px;
+}
+.all-shoes-wrap{
+  width: 100%;
+  height: 100%;
+  box-shadow: 0 0 10px rgba(0,0,0,0.3);
+  cursor: pointer;
+  
+  
+}
+.mens-item1,.mens-item2 {
+  position: relative;
+
+
+}
+.mens-item1::after{
+  content: 'Sale!';
+  position: absolute;
+  top: -5px;
+  left: 90%;
+  border-radius: 50px;
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  color: #fff;
+  text-align: center;
+  background-color: #9B2602;
+}
+.mens-item2::after{
+  content: 'Sale!';
+  position: absolute;
+  top: -5px;
+  left: 90%;
+  border-radius: 50px;
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  color: #fff;
+  text-align: center;
+  background-color: #9B2602;
+}
+.men-text-wrap{
+  text-align: center;
+}
+.men-text-wrap h5{
+  padding-bottom: 15px;
+  font-size: 16px;
+}
+.men-btn{
+  outline: none;
+  font-size: 16px;
+  padding: 10px 30px;
+  /* width: 150px; */
+  background-color: #9B2602;
+  color: #fff;
+  text-align: center;
+  cursor: pointer;
+transition: all 1s;
+}
+.par-men-btn{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding-bottom: 50px;
+}
+.men-btn:hover{
+  color: #fff;
+  background-color: #000;
+}
+/* ************************Lastest Product End******************************* */
+/* <!-- ********************************Affortable section******************* --> */
+
+.Affor-par{
+  padding-top: 100px;
+}
+.choose-wrapers{
+  width: 100%;
+  height: 100%;
+  background-color: rgba(185, 185, 185, 0.2);
+  overflow: hidden;
+}
+.chose-wrap h1{
+  padding: 20px 20px;
+  
+}
+.chose-wrap p{
+  color: #9B2602;
+  text-align: left;
+  padding-top: 20px;
+  padding-left: 20px;
+  font-size: 25px;
+}
+.Affor-wrap{
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  background-color: #F9F47E;
+  text-align: center;
+  transform: translate(15px);
+}
+.Affor-text{
+  position: relative;
+  left: 80px;
+  top: -7px;
+}
+.Affor-text h3{
+font-size: 20px;
+}
+.Affor-text p{
+  color: #000;
+  text-align: left;
+}
+.side-img-wrap{
+background-color: #000;
+cursor: pointer;
+transition: all 1s;
+}
+.side-img-wrap img{
+  width: 100%;
+opacity: 40%;
+transition: all 1s;
+
+}
+.side-img-wrap:hover{
+  transform: scale(1.2);
+}
+.scale-item{
+  overflow: hidden;
+}
+/* <!-- ********************************Affortable section End******************* --> */
+/* ************************Stopwatch section*************************************** */
+.Stopwatch{
+  padding-top: 100px;
+}
+#fire{
+  color: #fff;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+  font-size: 40px;
+}
+.time-img{
+  width: 100%;
+  height: 100%;
+  position: relative;
+  cursor: pointer;
+  background-color: #000;
+ 
+}
+.time-img img{
+  width: 100%;
+  height: 100%;
+  opacity: 40%;
+}
+.time-img-text{
+  position: absolute;
+  top: 20%;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.time-img-text h3{
+  text-align: center;
+  color: #fff;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+.time-img-text p{
+  font-size: 18px;
+}
+.time-set{
+  padding-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+#hr,#min,#sec{
+  width: 60px;
+  height: 60px;
+  /* padding: 15px 25px; */
+  /* display: block; */
+  display: inline-block;
+  text-align: center;
+  line-height: 60px;
+  background-color: #F9F47E;
+  font-size: 50px;
+  
+}
+.time-name{
+  padding: 10 5px;
+  text-align: center;
+}
+#hour,#mint,#secs{
+  color: #fff;
+  font-size: 30px;
+}
+.person-wrap-par{
+  padding-top: 100px;
+}
+.person-wrap{
+  width: 100%;
+  height: auto;
+  position: relative;
+  cursor: pointer;
+  overflow: hidden;
+  
+}
+.person-wrap:hover .person-img{
+  transform: scale(1.2);
+}
+.person-img{
+  background-color: #000;
+  transition: all 1s;
+}
+.person-img img{
+width: 100%;
+height: 400px;
+opacity: 40%;
+
+}
+.person-text{
+  position: absolute;
+  top: 0;
+  padding: 100px 70px;
+  
+}
+.person-text h1,p{
+  color: #fff;
+  text-align: center;
+}
+.person-text p{
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.person-btn{
+  outline: none;
+  font-size: 16px;
+  padding: 10px 30px;
+  width: 170px;
+  background-color: #9B2602;
+  color: #fff;
+  text-align: center;
+  cursor: pointer;
+transition: all 1s;
+}
+
+.person-btn:hover{
+  background-color: #000;
+  color: #fff;
+}
+/* ************************Stopwatch section End*************************************** */
+/* ***************owl************************************* */
+.item img{
+  max-width: 50%;
+  height: auto;
+  
+  }
+  .owl-theme{
+    padding-top: 20px;
+    padding-left: 200px;
+    background-color: #F9F47E;
+  }
+
+.owl-theme .owl-dots .owl-dot {
+  display: none;
+}
+.owl-theme .owl-nav {
+  display: none;
+}
+/* ***************owl End************************************* */
+/* ***************Paralex section***************************** */
+.mens-white-item{
+  width: 100%;
+  height: 600px;
+  background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url('shoes-img/man-in-white-high-top-shoes-standing-on-chair-e1642673659518.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.padding-wrap{
+  padding: 130px 50px;
+}
+/* ***************Paralex section End***************************** */
+/* *************************Footer****************************** */
+.footer-par{
+  width: 100%;
+  height: 100%;
+
+  background-color: rgba(0,0,0,0.9);
+  overflow: auto;
+}
+.footer-item1 h1,.footer-item2 h1,.footer-item3 h1{
+  color: #fff;
+  font-size: 30px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.footer-item1 p{
+  text-align: left;
+  padding-bottom: 10px;
+
+}
+.social-icons{
+  color: #fff;
+  cursor: pointer;
+}
+.social-icons i{
+  padding: 15px 15px;
+  background-color: #9B2602;
+  margin: 0 5px;
+}
+.footer-item2 ul li,.footer-item3 ul li{
+  list-style: none;
+  color: #fff;
+  padding: 8px 0;
+  cursor: pointer;
+  text-align: left;
+}
+.footer-item2 ul li a,.footer-item3 ul li a{
+  text-decoration: none;
+  color: #fff;
+}
+.footer-item2 ul li:hover a,.footer-item3 ul li:hover a{
+  color: #9B2602;
+}
+.footer-last-item{
+  text-align: center;
+  width: 100%;
+  background-color:#F9F47E;
+  color: #fff;
+  height: 50px;
+  line-height: 50px;
+}
+.footer-last-item p{
+  color: #000;
+}
+/* *************************Footer End****************************** */
